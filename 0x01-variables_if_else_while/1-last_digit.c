@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int n;
-	int z = n % 10;
+	int n,z;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	z = n %10
 	if (z > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, z);
 	else if	(z == 0)
