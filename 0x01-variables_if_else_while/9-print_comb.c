@@ -17,7 +17,7 @@ int main(void)
 		}
 		else
 			break;
-		i++
+		i++;
 
 	}
 	putchar('\n');
