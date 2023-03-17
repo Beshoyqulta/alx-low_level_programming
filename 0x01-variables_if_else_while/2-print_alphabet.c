@@ -1,19 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - prints the alaphabet in lower case
- * Return: Always 0 (Successful)
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-char a[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'};
-char b[] = {'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+		char ch;
 
-for (int i = 0; i < 14; i++)
-{
-	putchar(a[i]);
-}
-for(int z = 0; z < 14; z++)
-{
-	putchar(b[z]);
-}
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+			putchar(ch);
+		}
+		putchar('\n');
+		return (0);
 }
