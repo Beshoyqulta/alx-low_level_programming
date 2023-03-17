@@ -1,10 +1,9 @@
 #include <stdio.h>
 /*
- * *
- * *
- * * printing a phrase with printf
- * * return 0
  * 
+ * 
+ * printing a phrase with printf
+ * return 0
  */
 int main(void)
 {
