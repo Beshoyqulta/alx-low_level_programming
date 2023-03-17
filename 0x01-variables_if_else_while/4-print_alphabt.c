@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - print all alphabet except q and e
  * Return: Always 0 (Success)
