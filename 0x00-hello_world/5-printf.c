@@ -1,4 +1,4 @@
-#include <studio.h>
+#includei <stdio.h>
 /*
  * *
  * *
