@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-char a[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j''k', 'l', 'm'};
+char a[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'};
 char b[] = {'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
 for (int i = 0; i < 14; i++)
