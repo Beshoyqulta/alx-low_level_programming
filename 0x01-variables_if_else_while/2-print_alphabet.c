@@ -5,12 +5,15 @@
  */
 int main(void)
 {
-char alpha[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'
-		'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
-		'u', 'v', 'w', 'x', 'y', 'z'};
+char a[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j''k', 'l', 'm'};
+char b[] = {'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
-for (int i = 0; i < 27 ; i++)
+for (int i = 0; i < 14; i++)
 {
-	putchar(alpha[i]);
+	putchar(a[i]);
+}
+for(int z = 0; z < 14; z++)
+{
+	putchar(b[z]);
 }
 }
